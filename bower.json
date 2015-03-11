@@ -1,0 +1,20 @@
+{
+  "name": "particle",
+  "version": "0.0.0",
+  "homepage": "https://github.com/marcsavian/particle",
+  "authors": [
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./src/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
