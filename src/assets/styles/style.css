@@ -1,0 +1,126 @@
+body {
+    font-family: Helvetica, Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    background: #eee url(../media/images/body-bg.jpg) no-repeat center top;
+
+
+}
+
+#container {
+    width: 925px;
+    margin: 0 auto;
+    padding: 143px 0 0 0;
+}
+
+
+/*----------------------------------------
+HEADER
+------------------------------------------*/
+
+#header {
+    background: url(../media/images/header-bg.png) right bottom no-repeat;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#header h1 {
+    float: left;
+}
+
+#header ul#categories {
+    float: right;
+    list-style: none;
+    margin-top: 16px;
+}
+
+#header ul#categories li {
+    float: left;
+    margin-left: 40px;
+}
+
+#header ul#categories li a {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a42988;
+    text-decoration: none;
+    text-shadow: 0 2px 0 #fff;
+}
+
+#header ul#categories li a:hover {
+    color: #006ab1;
+}
+
+/*------------------------------------
+END HEADER
+---------------------------------------*/
+
+/*--------------------------------------
+CONTENT
+----------------------------------------*/
+
+#content {
+    background:url(../media/images/content-bg.png) right top repeat-y;
+    overflow: hidden;
+}
+
+#content a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a42988;
+    text-decoration: none;
+    text-shadow: 0 2px 0 #fff;
+}
+
+#content a:hover {
+    color: #006ab1;
+}
+
+#content #main {
+    width: 685px;
+    float: left;
+    padding: 55px 0 0 0;
+}
+
+#content #main h2 {
+    margin-bottom: 16px;
+}
+
+#content #main p {
+    margin-bottom: 25px;
+    color: #474747;
+    font-size: 15px;
+
+}
+
+#content #main .post {
+    background: url(../media/images/post-divider.png) right bottom no-repeat;
+    padding: 0 47px 55px 0;
+    margin-bottom: 55px;
+    overflow: hidden;
+}
+
+#content #main .post .date {
+    width: 62px;
+    height: 57px;
+    float: left;
+    padding-top: 15px;
+    margin-right: 20px;
+    background: #0085cc url(../media/images/date-bg.jpg);
+    text-align: center;
+}
+
+#content #main .post .date p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 2px 3px #006ab1;
+}
+#content #main .post .date p span {
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 5px;
+    text-transform: uppercase;
+
+}
