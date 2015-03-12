@@ -1,0 +1,7 @@
+#content #side, #content #main .post .date, #content #main .post .post-content ul.post-meta {
+    overflow: hidden;
+}
+
+#content, #footer, #header  {
+    height: 100%;
+}

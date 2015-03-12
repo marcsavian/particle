@@ -57,7 +57,7 @@ END HEADER
 ---------------------------------------*/
 
 /*--------------------------------------
-CONTENT
+MAIN CONTENT
 ----------------------------------------*/
 
 #content {
@@ -123,4 +123,233 @@ CONTENT
     margin-top: 5px;
     text-transform: uppercase;
 
+
+}
+#content #main .post .post-content {
+    width: 556px;
+    float: left;
+}
+
+#content #main .post-content ul.post-meta {
+    width: 515px;
+    height: 21px;
+    list-style: none;
+    padding: 14px 20px;
+    background: #d6d6d6 url(../media/images/meta-bg.jpg);
+}
+
+#content #main .post .post-content ul.post-meta li {
+    float: left;
+    margin-right: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 2px 3px #b8b8b8;
+}
+
+#content #main .post .post-content ul.post-meta li.readmore {
+    float: right;
+    margin: 0;
+}
+
+#content #main .post .post-content ul.post-meta li a {
+    color: #fff;
+    text-shadow: 0 2px 3px #b8b8b8;
+}
+
+#content #main .post .post-content ul.post-meta li a:hover {
+    color: #eee
+}
+
+
+.pagination {
+    overflow: hidden;
+}
+.pagination p {
+    text-align: center;
+    background: #eee url(../media/images/btn-bg.jpg) no-repeat;
+    height: 24px;
+    width: 160px;
+    padding: 15px 20px;
+}
+
+.older {
+    float: left;
+}
+
+.newer {
+    float: right;
+    margin-right: 47px;
+}
+
+/* -----------------------------------------
+Side Content
+-------------------------------------------*/
+
+#side {
+    width: 200px;
+    float: left;
+    padding: 5px 20px;
+}
+
+
+#subscribe a {
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 2px 3px #b8b8b8;
+    background: url(../media/images/rss-icon.png) left no-repeat;
+    padding: 7px 0 0 45px;
+    margin-bottom: 15px;
+}
+
+#subscribe a:hover {
+    color: #eee;
+}
+
+#pages {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+#pages li {
+    margin-bottom: 5px;
+}
+
+#pages li a {
+    display: block;
+    width: 157px;
+    height: 23px;
+    padding: 12px 20px;
+    text-align: center;
+    background: #eee url(../media/images/sidebar-btn.png);
+}
+
+#side h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 2px 3px #b8b8b8;
+}
+
+#follow-me {
+    overflow: hidden;
+    margin-bottom: 33px;
+}
+
+#follow-me li {
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+#follow-me li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: -99999px;
+}
+
+
+
+#follow-me li a.twitter {
+    background: url(../media/images/twitter_32.png);
+}
+
+#follow-me li a.facebook {
+    background: url(../media/images/facebook_32.png);
+}
+#follow-me li a.flickr {
+    background: url(../media/images/flickr_32.png);
+}
+
+#follow-me li a.youtube {
+    background: url(../media/images/youtube_32.png);
+}
+
+#follow-me li a.vimeo {
+    background: url(../media/images/vimeo_32.png);
+}
+
+#search {
+    margin-bottom: 30px;
+}
+#search input.search-bar {
+    width: 135px;
+    height: 43px;
+    padding: 1px 45px 0 15px;
+    float: left;
+    background: #eee url(../media/images/search-bar.png);
+    font-size: 15px;
+    color: #474747;
+    border: none;
+}
+
+#search input.search-btn {
+    width: 27px;
+    height: 27px;
+    float: right;
+    margin: -36px 15px 0 0;
+    cursor: pointer;
+    background: url(../media/images/search-btn.png) no-repeat;
+    text-indent: -9999px;
+    padding-left: 27px;
+    border: none;
+}
+
+
+/*----------------------------------------
+Footer
+-----------------------------------------*/
+#footer {
+    background: url(../media/images/footer-bg.png) center top no-repeat;
+    overflow: hidden;
+    min-height: 139px;
+}
+
+#credits {
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    margin: 25px 0 0 20px;
+}
+
+#credits li {
+    float: left;
+    margin-right: 10px;
+}
+
+#credits li a {
+    display: block;
+    height: 21px;
+    background-image: url(../media/images/credits.png);
+    text-indent: -9999px;
+
+}
+
+a.wordpress {
+    width: 21px;
+}
+
+a.spoongraphics {
+    width: 26px;
+    background-position: right;
+}
+
+#back-top {
+    float: right;
+    margin: 25px 20px 0 0;
+}
+
+#back-top a {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a42988;
+    text-shadow: 0 2px 0 #fff;
+}
+
+#back-top a:hover {
+    color: #006ab1;
 }

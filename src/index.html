@@ -33,6 +33,9 @@
     <link rel="stylesheet" media="screen, projection" href="assets/styles/screen.css" />
     <link rel="stylesheet" media="print" href="assets/styles/print.css" />
     <link rel="stylesheet" href="assets/styles/style.css" />
+    <!--[if IE 6]>
+    <link href="assets/styles/ie6.css" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
 </head>
 <body>
     <!-- CONTENT -->
@@ -61,15 +64,34 @@
                         <h2><a href="#">10 Fantastic Photography Tips</a></h2>
                         <p>We’ve put together our favourite photo tips and tricks to help you become a better photographer. Forget about relying on lady luck, or wasting your precious time wading through and deleting disappointing pictures, we’ll help you get it right first time. Making it easier to print your favourite photos and share the highlights of your life online. So whether you’re going to be out &amp; about photographing weddings, your kids and pets, enjoying family days out, or you latest holiday, follow our advice for fantastic photos to be proud of.</p>
 
-                        <ul>
-                            <li>Pasted in <a href="#">Articles</a></li>
-                            <li><a href="#comments">12 Comments</a> </li>
+                        <ul class="post-meta">
+                            <li>Posted in <a href="#">Articles</a></li>
+                            <li><a href="#">12 Comments</a> </li>
+                            <li class="readmore"><a href="#">Read More</a></li>
+                        </ul>
+                    </div><!-- end post-content -->
+
+
+
+                </div><!-- end post -->
+                <div class="post">
+
+                    <div class="date">
+                        <p>26 <span>Apr</span></p>
+                    </div><!-- end date -->
+
+                    <div class="post-content">
+                        <h2><a href="#">10 Fantastic Photography Tips</a></h2>
+                        <p>We’ve put together our favourite photo tips and tricks to help you become a better photographer. Forget about relying on lady luck, or wasting your precious time wading through and deleting disappointing pictures, we’ll help you get it right first time. Making it easier to print your favourite photos and share the highlights of your life online. So whether you’re going to be out &amp; about photographing weddings, your kids and pets, enjoying family days out, or you latest holiday, follow our advice for fantastic photos to be proud of.</p>
+
+                        <ul class="post-meta">
+                            <li>Posted in <a href="#">Articles</a></li>
+                            <li><a href="#">12 Comments</a> </li>
                             <li class="readmore"><a href="#">Read More</a></li>
                         </ul>
                     </div><!-- end post-content -->
 
                 </div><!-- end post -->
-
                 <div class="pagination">
                     <p class="older"><a href="#">Older Articles</a></p>
                     <p class="newer"><a href="#">Newer Articles</a></p>
@@ -88,7 +110,7 @@
 
                 <h3>Follow me</h3>
 
-                <ul id="follow me">
+                <ul id="follow-me">
                     <li><a href="#" class="twitter">Twitter</a></li>
                     <li><a href="#" class="facebook">Facebook</a></li>
                     <li><a href="#" class="flickr">Flickr</a></li>
@@ -107,15 +129,13 @@
 
             </div><!-- side -->
         </div><!-- end content -->
-            <footer>
+            <div id="footer">
                 <ul id="credits">
                     <li><a href="http://wordpress.org" class="wordpress">Powered by WordPress</a></li>
                     <li><a href="http://www.blog.spoongraphics.co.uk" class="spoongraphics">Theme by SpoonGraphics</a></li>
                 </ul>
-
                 <p id="back-top"><a href="#header">Back to top</a></p>
-
-            </footer>
+            </div>
     </div><!-- end container -->
     <!-- JAVASCRIPT -->
 </body>
