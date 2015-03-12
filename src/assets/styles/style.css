@@ -111,13 +111,14 @@ MAIN CONTENT
     text-align: center;
 }
 
-.date p {
+#main .date p {
     font-size: 40px;
     font-weight: bold;
     color: #fff;
     text-shadow: 0 2px 3px #006ab1;
+
 }
-.date p span {
+#main .date p span {
     font-size: 17px;
     font-weight: normal;
     margin-top: 5px;
@@ -130,6 +131,10 @@ MAIN CONTENT
     float: left;
 }
 
+.post-content h2 {
+    font-size: 24px;
+}
+
 .post-meta {
     width: 515px;
     height: 21px;
@@ -138,7 +143,7 @@ MAIN CONTENT
     background: #d6d6d6 url(../media/images/meta-bg.jpg);
 }
 
-.post-meta li {
+.post-content .post-meta li {
     float: left;
     margin-right: 40px;
     font-size: 15px;
@@ -153,12 +158,12 @@ MAIN CONTENT
     margin: 0;
 }
 
-.post-meta li a {
+#content #main .post .post-content ul.post-meta li a {
     color: #fff;
     text-shadow: 0 2px 3px #b8b8b8;
 }
 
-.post-meta li a:hover {
+#content #main .post .post-content ul.post-meta li a:hover {
     color: #eee
 }
 
