@@ -27,18 +27,18 @@ HEADER
     float: left;
 }
 
-#header ul#categories {
+#categories {
     float: right;
     list-style: none;
     margin-top: 16px;
 }
 
-#header ul#categories li {
+#categories li {
     float: left;
     margin-left: 40px;
 }
 
-#header ul#categories li a {
+#categories li a {
     display: block;
     font-size: 14px;
     font-weight: bold;
@@ -48,7 +48,7 @@ HEADER
     text-shadow: 0 2px 0 #fff;
 }
 
-#header ul#categories li a:hover {
+#categories li a:hover {
     color: #006ab1;
 }
 
@@ -77,31 +77,31 @@ MAIN CONTENT
     color: #006ab1;
 }
 
-#content #main {
+#main {
     width: 685px;
     float: left;
     padding: 55px 0 0 0;
 }
 
-#content #main h2 {
+#main h2 {
     margin-bottom: 16px;
 }
 
-#content #main p {
+#main p {
     margin-bottom: 25px;
     color: #474747;
     font-size: 15px;
 
 }
 
-#content #main .post {
+.post {
     background: url(../media/images/post-divider.png) right bottom no-repeat;
     padding: 0 47px 55px 0;
     margin-bottom: 55px;
     overflow: hidden;
 }
 
-#content #main .post .date {
+.date {
     width: 62px;
     height: 57px;
     float: left;
@@ -111,13 +111,13 @@ MAIN CONTENT
     text-align: center;
 }
 
-#content #main .post .date p {
+.date p {
     font-size: 40px;
     font-weight: bold;
     color: #fff;
     text-shadow: 0 2px 3px #006ab1;
 }
-#content #main .post .date p span {
+.date p span {
     font-size: 17px;
     font-weight: normal;
     margin-top: 5px;
@@ -125,12 +125,12 @@ MAIN CONTENT
 
 
 }
-#content #main .post .post-content {
+.post-content {
     width: 556px;
     float: left;
 }
 
-#content #main .post-content ul.post-meta {
+.post-meta {
     width: 515px;
     height: 21px;
     list-style: none;
@@ -138,7 +138,7 @@ MAIN CONTENT
     background: #d6d6d6 url(../media/images/meta-bg.jpg);
 }
 
-#content #main .post .post-content ul.post-meta li {
+.post-meta li {
     float: left;
     margin-right: 40px;
     font-size: 15px;
@@ -148,17 +148,17 @@ MAIN CONTENT
     text-shadow: 0 2px 3px #b8b8b8;
 }
 
-#content #main .post .post-content ul.post-meta li.readmore {
+.readmore {
     float: right;
     margin: 0;
 }
 
-#content #main .post .post-content ul.post-meta li a {
+.post-meta li a {
     color: #fff;
     text-shadow: 0 2px 3px #b8b8b8;
 }
 
-#content #main .post .post-content ul.post-meta li a:hover {
+.post-meta li a:hover {
     color: #eee
 }
 
@@ -253,29 +253,29 @@ Side Content
 
 
 
-#follow-me li a.twitter {
+a.twitter {
     background: url(../media/images/twitter_32.png);
 }
 
-#follow-me li a.facebook {
+a.facebook {
     background: url(../media/images/facebook_32.png);
 }
-#follow-me li a.flickr {
+a.flickr {
     background: url(../media/images/flickr_32.png);
 }
 
-#follow-me li a.youtube {
+a.youtube {
     background: url(../media/images/youtube_32.png);
 }
 
-#follow-me li a.vimeo {
+a.vimeo {
     background: url(../media/images/vimeo_32.png);
 }
 
 #search {
     margin-bottom: 30px;
 }
-#search input.search-bar {
+input.search-bar {
     width: 135px;
     height: 43px;
     padding: 1px 45px 0 15px;
@@ -286,7 +286,7 @@ Side Content
     border: none;
 }
 
-#search input.search-btn {
+input.search-btn {
     width: 27px;
     height: 27px;
     float: right;
@@ -328,11 +328,11 @@ Footer
 
 }
 
-a.wordpress {
+.wordpress {
     width: 21px;
 }
 
-a.spoongraphics {
+.spoongraphics {
     width: 26px;
     background-position: right;
 }
